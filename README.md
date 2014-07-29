@@ -17,6 +17,11 @@ Or install it yourself as:
 ## Usage
 ```
 RandomPassword.generate #=> "3hsty8u5fj"
+
+Options
+  :symbol_sets - Symbol set to use (allowed: :numeral, :lowercase, :uppercase, :special)
+  :length - Password length
+  :readble - Exclude unreadable symboles (0 o O i l I |)
 ```
 
 ## Contributing
