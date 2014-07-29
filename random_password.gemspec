@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RandomPassword::VERSION
   spec.authors       = ["kirikiriyamama"]
   spec.email         = ["ponde.ponde.ponde@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "Random password generator"
+  spec.description   = "Random password generator"
   spec.homepage      = ""
   spec.license       = "MIT"
 
