@@ -1,9 +1,7 @@
 # RandomPassword
-
-TODO: Write a gem description
+Random password generator
 
 ## Installation
-
 Add this line to your application's Gemfile:
 
     gem 'random_password'
@@ -17,8 +15,9 @@ Or install it yourself as:
     $ gem install random_password
 
 ## Usage
-
-TODO: Write usage instructions here
+```
+RandomPassword.generate #=> "3hsty8u5fj"
+```
 
 ## Contributing
 
