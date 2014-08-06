@@ -6,7 +6,7 @@ module RandomPassword
     def generate(symbol_sets: %i(lowercase numeral), length: 10, readable: false)
       symbols  = symbol_sets.map{ |symbol_set| SymbolSet.send(symbol_set) }.flatten
       symbols -= SymbolSet.unreadable if readable
-      symbols.sample(length).join
+      (1..length).map{ symbols.sample }.join
     end
   end
 end
