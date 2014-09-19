@@ -1,4 +1,4 @@
-module RandomPassword
+module Spg
   module SymbolSet
     class << self
       def numeral

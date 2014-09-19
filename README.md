@@ -1,9 +1,9 @@
-# RandomPassword
+# Spg - Simple Password Generator
 
 ## Installation
 Add this line to your application's Gemfile:
 
-    gem 'random_password'
+    gem 'spg'
 
 And then execute:
 
@@ -11,11 +11,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install random_password
+    $ gem install spg
 
 ## Usage
 ```
-RandomPassword.generate #=> "3hsty8u5fj"
+Spg.generate #=> "3hsty8u5fj"
 
 Options
   :symbol_sets - Symbol set to use (allowed: :numeral, :lowercase, :uppercase, :special)
@@ -25,7 +25,7 @@ Options
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/random_password/fork )
+1. Fork it ( https://github.com/kirikiriyamama/spg/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
